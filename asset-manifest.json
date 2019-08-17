@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/rechna/static/css/main.19393e92.chunk.css",
-    "main.js": "/rechna/static/js/main.cb72b759.chunk.js",
-    "main.js.map": "/rechna/static/js/main.cb72b759.chunk.js.map",
+    "main.js": "/rechna/static/js/main.9d1e24af.chunk.js",
+    "main.js.map": "/rechna/static/js/main.9d1e24af.chunk.js.map",
     "runtime~main.js": "/rechna/static/js/runtime~main.29b9074f.js",
     "runtime~main.js.map": "/rechna/static/js/runtime~main.29b9074f.js.map",
     "static/js/2.5f2d78ad.chunk.js": "/rechna/static/js/2.5f2d78ad.chunk.js",
     "static/js/2.5f2d78ad.chunk.js.map": "/rechna/static/js/2.5f2d78ad.chunk.js.map",
     "index.html": "/rechna/index.html",
-    "precache-manifest.2f687aea37c13418a3c03cf2c4906e11.js": "/rechna/precache-manifest.2f687aea37c13418a3c03cf2c4906e11.js",
+    "precache-manifest.609a3042c37e31a47a24f6d663543668.js": "/rechna/precache-manifest.609a3042c37e31a47a24f6d663543668.js",
     "service-worker.js": "/rechna/service-worker.js",
     "static/css/main.19393e92.chunk.css.map": "/rechna/static/css/main.19393e92.chunk.css.map"
   }
