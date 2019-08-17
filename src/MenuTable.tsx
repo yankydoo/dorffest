@@ -36,7 +36,7 @@ export const MenuTable: React.FC<IMenuTableProps> = (props: IMenuTableProps) => 
         <TableRow>
           <TableCell>Speise</TableCell>
           <TableCell>Preis</TableCell>
-          <TableCell>Anzahl</TableCell>
+          <TableCell align={"center"}>Anzahl</TableCell>
         </TableRow>
       </TableHead>
       <TableBody>
@@ -50,7 +50,7 @@ export const MenuTable: React.FC<IMenuTableProps> = (props: IMenuTableProps) => 
               <br />
               {priceFormat.format(menuItem.price * itemCount[idx])}
             </TableCell>
-            <TableCell>
+            <TableCell align={"center"}>
               <Typography variant={"h6"} color={"textPrimary"} noWrap={true}>
                 <IconButton onClick={() => setItemCount(copyAddItemCount(itemCount, idx, -1))} color={"primary"}>
                   <RemoveCircleOutline />
