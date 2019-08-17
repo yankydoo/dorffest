@@ -74,7 +74,7 @@ export const MenuTable: React.FC<IMenuTableProps> = (props: IMenuTableProps) => 
               {priceFormat.format(itemCount.map((count, idx) => props.menuItems[idx].price * count).reduce((previousValue, currentValue) => previousValue + currentValue, 0))}
             </Typography>
           </TableCell>
-          <TableCell>
+          <TableCell align={"center"}>
             <Button variant={"outlined"} onClick={() => setItemCount(props.menuItems.map(() => 0))} color={"primary"}>
               Reset
             </Button>
