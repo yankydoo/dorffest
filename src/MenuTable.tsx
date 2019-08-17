@@ -1,8 +1,18 @@
 import * as React from "react";
 import {MenuItem} from "./entity/MenuItem";
-import {IconButton, Table, TableBody, TableCell, TableFooter, TableHead, TableRow} from "@material-ui/core";
+import {
+  Button,
+  IconButton,
+  Table,
+  TableBody,
+  TableCell,
+  TableFooter,
+  TableHead,
+  TableRow,
+  Typography
+} from "@material-ui/core";
 import {useState} from "react";
-import {Add, Remove} from "@material-ui/icons";
+import {AddCircleOutline, RemoveCircleOutline} from "@material-ui/icons";
 
 interface IMenuTableProps {
     menuItems: MenuItem[]
@@ -33,15 +43,23 @@ export const MenuTable: React.FC<IMenuTableProps> = (props: IMenuTableProps) => 
         {props.menuItems.map((menuItem, idx) => (
           <TableRow key={idx}>
             <TableCell>{menuItem.name}</TableCell>
-            <TableCell>{priceFormat.format(menuItem.price)}</TableCell>
             <TableCell>
-              <IconButton onClick={() => setItemCount(copyAddItemCount(itemCount, idx, -1))}>
-                <Remove />
-              </IconButton>
-              {itemCount[idx]}
-              <IconButton onClick={() => setItemCount(copyAddItemCount(itemCount, idx, 1))}>
-                <Add />
-              </IconButton>
+              <Typography variant={"caption"} color={"textSecondary"}>
+                {priceFormat.format(menuItem.price)}
+              </Typography>
+              <br />
+              {priceFormat.format(menuItem.price * itemCount[idx])}
+            </TableCell>
+            <TableCell>
+              <Typography variant={"h6"} color={"textPrimary"} noWrap={true}>
+                <IconButton onClick={() => setItemCount(copyAddItemCount(itemCount, idx, -1))} color={"primary"}>
+                  <RemoveCircleOutline />
+                </IconButton>
+                  {itemCount[idx]}
+                <IconButton onClick={() => setItemCount(copyAddItemCount(itemCount, idx, 1))} color={"primary"}>
+                  <AddCircleOutline />
+                </IconButton>
+              </Typography>
             </TableCell>
           </TableRow>
         ))}
@@ -51,8 +69,15 @@ export const MenuTable: React.FC<IMenuTableProps> = (props: IMenuTableProps) => 
           <TableCell>
             Summe
           </TableCell>
-          <TableCell colSpan={2}>
-            {priceFormat.format(itemCount.map((count, idx) => props.menuItems[idx].price * count).reduce((previousValue, currentValue) => previousValue + currentValue, 0))}
+          <TableCell>
+            <Typography variant={"h6"} color={"textPrimary"}>
+              {priceFormat.format(itemCount.map((count, idx) => props.menuItems[idx].price * count).reduce((previousValue, currentValue) => previousValue + currentValue, 0))}
+            </Typography>
+          </TableCell>
+          <TableCell>
+            <Button variant={"outlined"} onClick={() => setItemCount(props.menuItems.map(() => 0))} color={"primary"}>
+              Reset
+            </Button>
           </TableCell>
         </TableRow>
       </TableFooter>
