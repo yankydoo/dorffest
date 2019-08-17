@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dorffest/precache-manifest.10c7602eb04a5bfc9bb127579a86594a.js"
+  "/dorffest/precache-manifest.10a5c3001d320e7cd6f0b7e0c4e02f4b.js"
 );
 
 self.addEventListener('message', (event) => {
