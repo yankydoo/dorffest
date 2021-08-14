@@ -1,7 +1,7 @@
 
-# Rechna
+# Dorffest TR
 
-Kleine Web-App zum schnellen Ausrechnen von Bestellungen.
+Web-App zum schnellen Ausrechnen von Bestellungen.
 
 ## Deployment
 
