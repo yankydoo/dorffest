@@ -7,27 +7,27 @@ export const menu: MenuItem[] = [
     },
     {
         name: "1/8 rot/weiß",
-        price: 1.5
+        price: 2
     },
     {
         name: "G'spritzter, Kaiser",
-        price: 2
+        price: 2.5
     },
     {
         name: "1/8 Veltliner Tradition",
         price: 2.5
     },
     {
-        name: "Korl, Schurli",
+        name: "Cola, Fanta, Almd. 0,33 l",
         price: 2
     },
     {
-        name: "Cola, Fanta, Alm 1/4",
-        price: 1.5
+        name: "Korl, Schurli",
+        price: 2.5
     },
     {
-        name: "Mineral 1/4",
-        price: 1
+        name: "Mineral 0,33 l",
+        price: 1.5
     },
     {
         name: "Kaffee",
@@ -39,14 +39,18 @@ export const menu: MenuItem[] = [
     },
     {
         name: "Pommes",
-        price: 2
+        price: 2.5
     },
     {
-        name: "1 Spieß (Kinder)",
+        name: "Kotelettsemmel",
+        price: 4
+    },
+    {
+        name: "Kotelett + Pommes/Semmel + Salat",
+        price: 9
+    },
+    {
+        name: "Kotelett Kinderportion",
         price: 6
-    },
-    {
-        name: "2 Spieße",
-        price: 8.5
     },
 ];
