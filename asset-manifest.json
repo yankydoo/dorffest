@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/dorffest/static/css/main.19393e92.chunk.css",
-    "main.js": "/dorffest/static/js/main.fa1a0d2c.chunk.js",
-    "main.js.map": "/dorffest/static/js/main.fa1a0d2c.chunk.js.map",
-    "runtime~main.js": "/dorffest/static/js/runtime~main.14d9b676.js",
-    "runtime~main.js.map": "/dorffest/static/js/runtime~main.14d9b676.js.map",
-    "static/js/2.5f2d78ad.chunk.js": "/dorffest/static/js/2.5f2d78ad.chunk.js",
-    "static/js/2.5f2d78ad.chunk.js.map": "/dorffest/static/js/2.5f2d78ad.chunk.js.map",
+    "main.css": "/dorffest/static/css/main.f8bd8606.chunk.css",
+    "main.js": "/dorffest/static/js/main.1ed51eb9.chunk.js",
+    "main.js.map": "/dorffest/static/js/main.1ed51eb9.chunk.js.map",
+    "runtime-main.js": "/dorffest/static/js/runtime-main.9541b337.js",
+    "runtime-main.js.map": "/dorffest/static/js/runtime-main.9541b337.js.map",
+    "static/js/2.4783b7c0.chunk.js": "/dorffest/static/js/2.4783b7c0.chunk.js",
+    "static/js/2.4783b7c0.chunk.js.map": "/dorffest/static/js/2.4783b7c0.chunk.js.map",
     "index.html": "/dorffest/index.html",
-    "precache-manifest.10a5c3001d320e7cd6f0b7e0c4e02f4b.js": "/dorffest/precache-manifest.10a5c3001d320e7cd6f0b7e0c4e02f4b.js",
-    "service-worker.js": "/dorffest/service-worker.js",
-    "static/css/main.19393e92.chunk.css.map": "/dorffest/static/css/main.19393e92.chunk.css.map"
-  }
+    "static/css/main.f8bd8606.chunk.css.map": "/dorffest/static/css/main.f8bd8606.chunk.css.map",
+    "static/js/2.4783b7c0.chunk.js.LICENSE.txt": "/dorffest/static/js/2.4783b7c0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9541b337.js",
+    "static/js/2.4783b7c0.chunk.js",
+    "static/css/main.f8bd8606.chunk.css",
+    "static/js/main.1ed51eb9.chunk.js"
+  ]
 }
