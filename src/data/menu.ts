@@ -3,26 +3,22 @@ import {MenuItem} from "../entity/MenuItem";
 export const menu: MenuItem[] = [
     {
         name: "Bier, Radler",
-        price: 3
+        price: 3.2
     },
     {
         name: "1/8 rot/weiß",
-        price: 2
+        price: 2.2
     },
     {
         name: "G'spritzter, Kaiser",
-        price: 2.5
-    },
-    {
-        name: "1/8 Veltliner Tradition",
-        price: 2.5
+        price: 2.2
     },
     {
         name: "Cola, Fanta, Almd. 0,33 l",
         price: 2
     },
     {
-        name: "Korl, Schurli",
+        name: "Korl, Schurli 0,5 l",
         price: 2.5
     },
     {
