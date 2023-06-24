@@ -2,8 +2,12 @@ import {MenuItem} from "../entity/MenuItem";
 
 export const menu: MenuItem[] = [
     {
-        name: "Bier, Radler",
-        price: 3.2
+        name: "Bier 0,5l",
+        price: 3
+    },
+    {
+        name: "Radler 0,33l",
+        price: 2.8
     },
     {
         name: "1/8 rot/weiß",
@@ -18,6 +22,10 @@ export const menu: MenuItem[] = [
         price: 2
     },
     {
+        name: "- gespritzt auf 0,5 l",
+        price: 2.5
+    },
+    {
         name: "Korl, Schurli 0,5 l",
         price: 2.5
     },
@@ -26,27 +34,35 @@ export const menu: MenuItem[] = [
         price: 1.5
     },
     {
+        name: "Mineral 1 Flasche",
+        price: 5
+    },
+    {
         name: "Kaffee",
         price: 1.5
     },
     {
         name: "Mehlspeise",
-        price: 2
+        price: 2.5
     },
     {
-        name: "Pommes",
-        price: 2.5
+        name: "Halbes Grillhendl",
+        price: 8
+    },
+    {
+        name: "Kotelett",
+        price: 8
     },
     {
         name: "Kotelettsemmel",
         price: 4
     },
     {
-        name: "Kotelett + Pommes/Semmel + Salat",
-        price: 9
+        name: "Salat",
+        price: 2.5
     },
     {
-        name: "Kotelett Kinderportion",
-        price: 6
-    },
+        name: "Pommes",
+        price: 2.5
+    }
 ];
