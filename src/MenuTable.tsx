@@ -10,9 +10,9 @@ import {
   TableHead,
   TableRow,
   Typography
-} from "@material-ui/core";
+} from "@mui/material";
 import {useState} from "react";
-import {AddCircleOutline, RemoveCircleOutline} from "@material-ui/icons";
+import {AddCircleOutline, RemoveCircleOutline} from "@mui/icons-material";
 
 interface IMenuTableProps {
     menuItems: MenuItem[]
